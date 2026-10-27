@@ -1,0 +1,6 @@
+{
+  "name": "LandGuard AI – Predictive Land Acquisition Monitoring System",
+  "description": "NEXORA predictive analytics platform for District Collectors and Land Acquisition Officers to forecast statutory milestone delays under RFCTLARR with explainable AI drivers and proactive corrective interventions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
