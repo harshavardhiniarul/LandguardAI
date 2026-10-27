@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LandGuard AI
 
-# Run and deploy your AI Studio app
+**LandGuard AI – Predictive Land Acquisition Monitoring System** is a web application designed to help government officers monitor land acquisition cases and predict delays in statutory milestones.
 
-This contains everything you need to run your app locally.
+### Key Features
+- **Dashboard:** View case statistics and progress.
+- **Case Management:** Add, search, and track land acquisition cases.
+- **Delay Prediction:** Identify cases at risk of missing deadlines.
+- **Alerts:** Highlight cases requiring attention.
+- **Reports:** Generate and export case reports.
 
-View your app in AI Studio: https://ai.studio/apps/0fbdae57-22fd-496d-9aeb-125fb6b1ba0c
+### Technologies Used
+- Frontend: React, TypeScript, CSS
+- Backend: Python, FastAPI
+- Machine Learning: Scikit-learn, SHAP
+- Database: PostgreSQL (planned)
 
-## Run Locally
+### Project Goal
+To support proactive monitoring, improve decision-making, and help officers take timely action to reduce land acquisition delays.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Current Status:** Frontend prototype with sample data. Backend and machine-learning integration are planned.
